@@ -1,0 +1,173 @@
+"""Ocean skin -- deep blues with coral/orange ship accents."""
+
+SKIN_NAME = "Ocean"
+
+BG_COLOR         = "#e3f2fd"
+PANEL_BG         = "#e3f2fd"
+TEXT_COLOR       = "#01579b"
+TEXT_SECONDARY   = "#0277bd"
+BUTTON_BG        = "#0277bd"
+BUTTON_FG        = "#ffffff"
+BUTTON_ACTIVE_BG = "#01579b"
+ACCENT_COLOR     = "#ff6f00"
+
+CELL_SIZE    = 38
+BOARD_PADDING = 12
+LABEL_AREA_W = 22
+LABEL_AREA_H = 22
+
+FLEET_WATER_COLOR    = "#bbdefb"
+ATTACK_UNKNOWN_COLOR = "#b3e5fc"
+SHIP_COLOR           = "#ff6f00"
+HIT_COLOR            = "#d32f2f"
+MISS_COLOR           = "#90caf9"
+SUNK_COLOR           = "#880000"
+GHOST_VALID_COLOR    = "#80deea"
+GHOST_INVALID_COLOR  = "#ffccbc"
+
+HIT_FLASH_COLOR    = "#ff5252"
+MISS_FLASH_COLOR   = "#b3e5fc"
+SUNK_FLASH_COLOR   = "#b71c1c"
+WIN_FLASH_COLOR_P1 = "#0277bd"
+WIN_FLASH_COLOR_P2 = "#ff6f00"
+
+LABEL_FONT        = ("Helvetica", 8)
+LABEL_COLOR       = "#0277bd"
+GRID_BORDER_COLOR = "#0277bd"
+CELL_OUTLINE_COLOR = "#b3d6f0"
+
+SHIP_LIST_BG          = "#bbdefb"
+SHIP_LIST_SELECTED_BG = "#0277bd"
+SHIP_LIST_SELECTED_FG = "#ffffff"
+SHIP_LIST_NORMAL_FG   = "#01579b"
+SHIP_LIST_FONT        = ("Helvetica", 9)
+
+TITLE_FONT       = ("Helvetica", 22, "bold")
+SUBTITLE_FONT    = ("Helvetica", 11)
+STATUS_FONT      = ("Helvetica", 10)
+BUTTON_FONT      = ("Helvetica", 10)
+HEADER_FONT      = ("Helvetica", 12, "bold")
+STATS_LABEL_FONT = ("Helvetica", 9)
+STATS_VALUE_FONT = ("Helvetica", 9, "bold")
+
+RELIEF       = "flat"
+BORDER_WIDTH = 1
+PAD_X        = 8
+PAD_Y        = 6
+SPLASH_BG    = "#e3f2fd"
+
+CHART_BG         = "#e3f2fd"
+CHART_AXES_BG    = "#bbdefb"
+CHART_LINE_COLOR = "#0277bd"
+CHART_ZERO_COLOR = "#90caf9"
+CHART_TEXT_COLOR = "#01579b"
+
+WINDOW_WIDTH         = 1000
+WINDOW_HEIGHT        = 680
+LAYOUT_INIT_DELAY_MS = 10
+
+STATUS_BAR_HEIGHT   = 44
+STATUS_BG           = "#bbdefb"
+STATUS_COLOR        = "#01579b"
+STATUS_LABEL_PADX   = 12
+STATUS_BTN_PADX     = 4
+STATUS_BTN_PADX_END = 8
+STATUS_BTN_PADY     = 4
+STATUS_BTN_FONT     = ("Helvetica", 9)
+
+BTN_BG        = "#0277bd"
+BTN_FG        = "#ffffff"
+BTN_ACTIVE_BG = "#01579b"
+BTN_FONT      = ("Helvetica", 11, "bold")
+BTN_RELIEF    = "flat"
+BTN_PADX      = 14
+BTN_PADY      = 6
+BTN_BD        = 0
+MENU_BD       = 0
+
+START_TITLE_FONT     = ("Helvetica", 28, "bold")
+START_TITLE_COLOR    = "#01579b"
+START_SUBTITLE_FONT  = ("Helvetica", 13)
+START_SUBTITLE_COLOR = "#0277bd"
+START_BTN_PADX       = 8
+START_TITLE_PADY     = 8
+START_SUBTITLE_PADY  = 16
+START_SECTION_PADY   = 14
+START_WHO_FIRST_PADY = 12
+START_BOTTOM_ROW_PADY= 12
+
+LABEL_FONT  = ("Helvetica", 11)
+LABEL_COLOR = "#0277bd"
+
+MENU_FG = "#01579b"
+
+ABOUT_WRAP_WIDTH     = 400
+ABOUT_PADX           = 24
+ABOUT_PADY           = 8
+ABOUT_TITLE_PADY_TOP = 20
+ABOUT_CLOSE_PADY_BOT = 20
+RULES_WRAP_WIDTH     = 420
+RULES_LABEL_PADX     = 24
+RULES_LABEL_PADY     = 16
+RULES_CLOSE_PADY_BOT = 16
+
+STATS_WINDOW_WIDTH      = 600
+STATS_PADDING           = 18
+STATS_TITLE_PADY_BOT    = 10
+STATS_CLOSE_SPACER_H    = 6
+STATS_SECTION_BG        = "#0277bd"
+STATS_SECTION_FG        = "#ffffff"
+STATS_SECTION_FONT      = ("Helvetica", 10, "bold")
+STATS_SECTION_PADY      = 6
+STATS_ROW_LABEL_FONT    = ("Helvetica", 10)
+STATS_ROW_VALUE_FONT    = ("Helvetica", 10, "bold")
+STATS_ROW_LABEL_COLOR   = "#01579b"
+STATS_ROW_VALUE_COLOR   = "#0277bd"
+STATS_ROW_PADX          = 14
+STATS_ROW_PADY          = 2
+STATS_DIVIDER_COLOR     = "#90caf9"
+STATS_TITLE_FONT        = ("Helvetica", 20, "bold")
+STATS_TITLE_COLOR       = "#01579b"
+STATS_DELAY_MS          = 800
+STATS_SHOW_CHART        = True
+STATS_CHART_HEIGHT_IN   = 2.6
+STATS_CHART_DPI         = 90
+STATS_CHART_BG          = "#e3f2fd"
+STATS_CHART_P1_COLOR    = "#0277bd"
+STATS_CHART_P2_COLOR    = "#ff6f00"
+STATS_CHART_LINE_COLOR  = "#0277bd"
+STATS_CHART_ZERO_COLOR  = "#90caf9"
+STATS_CHART_TEXT_COLOR  = "#0d47a1"
+STATS_CHART_GRID_COLOR  = "#b3e5fc"
+STATS_CHART_FILL_ALPHA  = 0.20
+STATS_CHART_LINE_WIDTH  = 1.8
+STATS_CHART_ZERO_WIDTH  = 1.0
+STATS_CHART_FONT_SIZE   = 7
+STATS_CHART_LABEL_PAD   = 2
+STATS_CHART_TICK_LENGTH = 3
+STATS_CHART_TICK_PAD    = 2
+STATS_CHART_SPINE_WIDTH = 0.8
+STATS_CHART_GRID_WIDTH  = 0.5
+STATS_CHART_LAYOUT_PAD  = 0.6
+STATS_SECTION_PACK_PADY_TOP = 8
+STATS_SECTION_PACK_PADY_BOT = 2
+STATS_CLOSE_BTN_PADY_TOP    = 8
+STATS_CHART_PACK_PADY_TOP   = 8
+
+PANEL_DIVIDER_COLOR = "#90caf9"
+BOARD_BORDER        = "#90caf9"
+TURN_COLOR_P1       = "#0277bd"
+TURN_COLOR_P2       = "#ff6f00"
+
+# -- Ship deployment table (placement panel) -----------------------------------
+SHIP_TABLE_HEADING_BG    = "#0277bd"
+SHIP_TABLE_HEADING_FG    = "#ffffff"
+SHIP_TABLE_ROW_ACTIVE_BG = "#bbdefb"
+SHIP_TABLE_ROW_ACTIVE_FG = "#01579b"
+SHIP_TABLE_ROW_DONE_BG   = "#e3f2fd"
+SHIP_TABLE_ROW_DONE_FG   = "#90caf9"
+SHIP_TABLE_SELECT_BG     = "#0277bd"
+SHIP_TABLE_SELECT_FG     = "#ffffff"
+SHIP_TABLE_VISIBLE_ROWS  = 6
+SHIP_TABLE_COL_TYPE_W    = 160
+SHIP_TABLE_COL_COUNT_W   = 55

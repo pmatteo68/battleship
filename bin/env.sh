@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PYTHON_HOME=/usr/bin
+PATH=${PYTHON_HOME}:${PATH}
+PATH=${PYTHON_HOME}/Scripts:${PATH}
+
+VENV_NAME=myenv
+
+export PATH
+export VENV_NAME
+
+# Possible values: DEBUG, INFO, WARNING, ERROR, CRITICAL
+GAME_LOG_LEVEL=INFO
+export GAME_LOG_LEVEL
