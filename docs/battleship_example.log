@@ -1,0 +1,1172 @@
+2026-10-20 21:22:39.006 [MainThread] INFO __main__:34 - ============================================================
+2026-10-20 21:22:39.007 [MainThread] INFO __main__:35 - Battleship  v. 1.0.0  --  starting
+2026-10-20 21:22:39.007 [MainThread] INFO __main__:36 - Python 3.14.7  |  platform: win32
+2026-10-20 21:22:39.007 [MainThread] DEBUG ai_engine:20 - Loading AI engine: ai_engines.hunt_target
+2026-10-20 21:22:39.009 [MainThread] DEBUG ai_engine:23 - AI engine loaded: Hunt & Target (prob.density)
+2026-10-20 21:22:39.009 [MainThread] INFO __main__:37 - AI: Hunt & Target (prob.density)  |  Skin: Default
+2026-10-20 21:22:39.019 [MainThread] INFO __main__:38 - Grid defaults: 10x10  fleet: standard
+2026-10-20 21:22:39.019 [MainThread] INFO __main__:43 - ============================================================
+2026-10-20 21:22:39.214 [MainThread] DEBUG matplotlib:347 - matplotlib data path: C:\Users\user001\Downloads\tmp\Forza4\battleship_python\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-20 21:22:39.220 [MainThread] DEBUG matplotlib:347 - CONFIGDIR=C:\Users\user001\AppData\Local\matplotlib
+2026-10-20 21:22:39.221 [MainThread] DEBUG matplotlib:1567 - interactive is False
+2026-10-20 21:22:39.221 [MainThread] DEBUG matplotlib:1568 - platform is win32
+2026-10-20 21:22:39.250 [MainThread] DEBUG matplotlib:347 - CACHEDIR=C:\Users\user001\AppData\Local\matplotlib
+2026-10-20 21:22:39.252 [MainThread] DEBUG matplotlib.font_manager:1844 - Using fontManager instance from C:\Users\user001\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-20 21:22:39.509 [MainThread] DEBUG ui_main:330 - Navigating to start screen
+2026-10-20 21:22:41.465 [MainThread] DEBUG ui_main:1143 - New game: 10x10 fleet=standard first=human autoplay=True
+2026-10-20 21:22:41.466 [MainThread] DEBUG game_logic:255 - GameState init: 10x10  fleet=['Carrier', 'Battleship', 'Destroyer', 'Submarine', 'Patrol Boat']  first_attacker=1
+2026-10-20 21:22:41.466 [MainThread] DEBUG ui_main:345 - Navigating to game screen hp=None autoplay=True
+2026-10-20 21:22:41.476 [MainThread] DEBUG ui_main:365 - Autoplay: created AI engine for both players
+2026-10-20 21:22:41.788 [MainThread] DEBUG ui_main:476 - Starting P1 placement phase; autoplay=True
+2026-10-20 21:22:41.789 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is placing ships...'
+2026-10-20 21:22:41.793 [MainThread] DEBUG game_logic:304 - P1 placed Carrier (id=1) at (3,7) shape=[[0, 0], [0, 1], [1, 0], [1, 1], [2, 1]]
+2026-10-20 21:22:41.793 [MainThread] DEBUG ui_main:720 - AI P1 placed ship #1 at (3,7) shape=[[0, 0], [0, 1], [1, 0], [1, 1], [2, 1]]
+2026-10-20 21:22:41.853 [MainThread] DEBUG game_logic:304 - P1 placed Battleship (id=2) at (8,5) shape=[[0, 0], [0, 1], [0, 2], [0, 3]]
+2026-10-20 21:22:41.853 [MainThread] DEBUG ui_main:720 - AI P1 placed ship #2 at (8,5) shape=[[0, 0], [0, 1], [0, 2], [0, 3]]
+2026-10-20 21:22:41.917 [MainThread] DEBUG game_logic:304 - P1 placed Destroyer (id=3) at (9,3) shape=[[0, 0], [0, 1], [0, 2]]
+2026-10-20 21:22:41.917 [MainThread] DEBUG ui_main:720 - AI P1 placed ship #3 at (9,3) shape=[[0, 0], [0, 1], [0, 2]]
+2026-10-20 21:22:41.979 [MainThread] DEBUG game_logic:304 - P1 placed Submarine (id=4) at (1,1) shape=[[0, 0], [0, 1], [0, 2]]
+2026-10-20 21:22:41.980 [MainThread] DEBUG ui_main:720 - AI P1 placed ship #4 at (1,1) shape=[[0, 0], [0, 1], [0, 2]]
+2026-10-20 21:22:42.044 [MainThread] DEBUG game_logic:304 - P1 placed Patrol Boat (id=5) at (0,5) shape=[[0, 0], [1, 0]]
+2026-10-20 21:22:42.044 [MainThread] DEBUG game_logic:320 - P1 fleet done; moving to PHASE_P2_PLACEMENT
+2026-10-20 21:22:42.045 [MainThread] DEBUG ui_main:720 - AI P1 placed ship #5 at (0,5) shape=[[0, 0], [1, 0]]
+2026-10-20 21:22:42.107 [MainThread] DEBUG game_stats:49 - Stats: P1 placement time=0.32s
+2026-10-20 21:22:42.107 [MainThread] DEBUG ui_main:670 - P1 placement done (autoplay)
+2026-10-20 21:22:43.617 [MainThread] DEBUG ui_main:494 - Starting P2 placement phase
+2026-10-20 21:22:43.618 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is placing ships...'
+2026-10-20 21:22:43.620 [MainThread] DEBUG game_logic:304 - P2 placed Carrier (id=6) at (2,5) shape=[[0, 0], [0, 1], [0, 2], [1, 0], [1, 1]]
+2026-10-20 21:22:43.620 [MainThread] DEBUG ui_main:720 - AI P2 placed ship #1 at (2,5) shape=[[0, 0], [0, 1], [0, 2], [1, 0], [1, 1]]
+2026-10-20 21:22:43.679 [MainThread] DEBUG game_logic:304 - P2 placed Battleship (id=7) at (0,2) shape=[[0, 0], [1, 0], [2, 0], [3, 0]]
+2026-10-20 21:22:43.679 [MainThread] DEBUG ui_main:720 - AI P2 placed ship #2 at (0,2) shape=[[0, 0], [1, 0], [2, 0], [3, 0]]
+2026-10-20 21:22:43.742 [MainThread] DEBUG game_logic:304 - P2 placed Destroyer (id=8) at (6,0) shape=[[0, 0], [1, 0], [2, 0]]
+2026-10-20 21:22:43.742 [MainThread] DEBUG ui_main:720 - AI P2 placed ship #3 at (6,0) shape=[[0, 0], [1, 0], [2, 0]]
+2026-10-20 21:22:43.792 [MainThread] DEBUG game_logic:304 - P2 placed Submarine (id=9) at (3,1) shape=[[0, 0], [1, 0], [2, 0]]
+2026-10-20 21:22:43.793 [MainThread] DEBUG ui_main:720 - AI P2 placed ship #4 at (3,1) shape=[[0, 0], [1, 0], [2, 0]]
+2026-10-20 21:22:43.849 [MainThread] DEBUG game_logic:304 - P2 placed Patrol Boat (id=10) at (7,8) shape=[[0, 0], [1, 0]]
+2026-10-20 21:22:43.850 [MainThread] DEBUG game_logic:315 - Both fleets placed; moving to attack phase=p1_attack
+2026-10-20 21:22:43.851 [MainThread] DEBUG ui_main:720 - AI P2 placed ship #5 at (7,8) shape=[[0, 0], [1, 0]]
+2026-10-20 21:22:43.913 [MainThread] DEBUG game_stats:49 - Stats: P2 placement time=0.30s
+2026-10-20 21:22:43.913 [MainThread] DEBUG ui_main:679 - P2 placement done; transitioning to attack phase
+2026-10-20 21:22:43.922 [MainThread] DEBUG game_stats:53 - Stats: attack phase started
+2026-10-20 21:22:44.224 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:22:44.226 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:22:44.832 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:22:44.834 [MainThread] DEBUG game_logic:391 - P1 fires at (3,5): hit
+2026-10-20 21:22:44.834 [MainThread] DEBUG game_stats:83 - Stats: shot #1 P1 (3,5) hit=True sunk=None score=58
+2026-10-20 21:22:44.834 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:22:44.834 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:22:46.628 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:22:46.630 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:22:47.242 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:22:47.248 [MainThread] DEBUG game_logic:391 - P2 fires at (6,6): miss
+2026-10-20 21:22:47.248 [MainThread] DEBUG game_stats:83 - Stats: shot #2 P2 (6,6) hit=False sunk=None score=58
+2026-10-20 21:22:47.248 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:22:47.248 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:22:48.873 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:22:48.875 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:22:49.487 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:22:49.487 [MainThread] DEBUG game_logic:391 - P1 fires at (3,6): hit
+2026-10-20 21:22:49.487 [MainThread] DEBUG game_stats:83 - Stats: shot #3 P1 (3,6) hit=True sunk=None score=117
+2026-10-20 21:22:49.488 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:22:49.488 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:22:51.283 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:22:51.287 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:22:51.893 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:22:51.898 [MainThread] DEBUG game_logic:391 - P2 fires at (3,3): miss
+2026-10-20 21:22:51.899 [MainThread] DEBUG game_stats:83 - Stats: shot #4 P2 (3,3) hit=False sunk=None score=117
+2026-10-20 21:22:51.899 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:22:51.900 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:22:53.520 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:22:53.524 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:22:54.125 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:22:54.126 [MainThread] DEBUG game_logic:391 - P1 fires at (3,4): miss
+2026-10-20 21:22:54.126 [MainThread] DEBUG game_stats:83 - Stats: shot #5 P1 (3,4) hit=False sunk=None score=117
+2026-10-20 21:22:54.126 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:22:54.126 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:22:55.732 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:22:55.734 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:22:56.346 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:22:56.353 [MainThread] DEBUG game_logic:391 - P2 fires at (6,2): miss
+2026-10-20 21:22:56.353 [MainThread] DEBUG game_stats:83 - Stats: shot #6 P2 (6,2) hit=False sunk=None score=117
+2026-10-20 21:22:56.353 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:22:56.357 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:22:57.982 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:22:57.985 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:22:58.592 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:22:58.593 [MainThread] DEBUG game_logic:391 - P1 fires at (3,7): miss
+2026-10-20 21:22:58.593 [MainThread] DEBUG game_stats:83 - Stats: shot #7 P1 (3,7) hit=False sunk=None score=117
+2026-10-20 21:22:58.593 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:22:58.593 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:00.216 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:00.219 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:00.826 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:00.830 [MainThread] DEBUG game_logic:391 - P2 fires at (3,7): hit
+2026-10-20 21:23:00.830 [MainThread] DEBUG game_stats:83 - Stats: shot #8 P2 (3,7) hit=True sunk=None score=58
+2026-10-20 21:23:00.830 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:00.830 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:23:02.632 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:02.636 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:03.244 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:23:03.245 [MainThread] DEBUG game_logic:391 - P1 fires at (4,5): miss
+2026-10-20 21:23:03.246 [MainThread] DEBUG game_stats:83 - Stats: shot #9 P1 (4,5) hit=False sunk=None score=58
+2026-10-20 21:23:03.246 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:03.247 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:04.870 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:04.877 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:05.481 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:23:05.482 [MainThread] DEBUG game_logic:391 - P2 fires at (3,8): hit
+2026-10-20 21:23:05.483 [MainThread] DEBUG game_stats:83 - Stats: shot #10 P2 (3,8) hit=True sunk=None score=0
+2026-10-20 21:23:05.484 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:05.484 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:23:07.265 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:07.267 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:07.868 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:23:07.868 [MainThread] DEBUG game_logic:391 - P1 fires at (2,5): hit
+2026-10-20 21:23:07.868 [MainThread] DEBUG game_stats:83 - Stats: shot #11 P1 (2,5) hit=True sunk=None score=58
+2026-10-20 21:23:07.869 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:07.869 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:23:09.665 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:09.669 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:10.274 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:23:10.275 [MainThread] DEBUG game_logic:391 - P2 fires at (3,9): miss
+2026-10-20 21:23:10.275 [MainThread] DEBUG game_stats:83 - Stats: shot #12 P2 (3,9) hit=False sunk=None score=58
+2026-10-20 21:23:10.276 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:10.276 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:11.896 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:11.902 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:12.507 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:23:12.508 [MainThread] DEBUG game_logic:391 - P1 fires at (4,6): miss
+2026-10-20 21:23:12.509 [MainThread] DEBUG game_stats:83 - Stats: shot #13 P1 (4,6) hit=False sunk=None score=58
+2026-10-20 21:23:12.509 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:12.509 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:14.128 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:14.130 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:14.743 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:23:14.744 [MainThread] DEBUG game_logic:391 - P2 fires at (3,6): miss
+2026-10-20 21:23:14.744 [MainThread] DEBUG game_stats:83 - Stats: shot #14 P2 (3,6) hit=False sunk=None score=58
+2026-10-20 21:23:14.744 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:14.744 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:16.354 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:16.357 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:16.971 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:23:16.971 [MainThread] DEBUG game_logic:391 - P1 fires at (2,4): miss
+2026-10-20 21:23:16.972 [MainThread] DEBUG game_stats:83 - Stats: shot #15 P1 (2,4) hit=False sunk=None score=58
+2026-10-20 21:23:16.972 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:16.972 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:18.584 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:18.586 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:19.197 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:23:19.198 [MainThread] DEBUG game_logic:391 - P2 fires at (2,8): miss
+2026-10-20 21:23:19.198 [MainThread] DEBUG game_stats:83 - Stats: shot #16 P2 (2,8) hit=False sunk=None score=58
+2026-10-20 21:23:19.198 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:19.198 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:20.802 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:20.804 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:21.418 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:23:21.420 [MainThread] DEBUG game_logic:391 - P1 fires at (2,6): hit
+2026-10-20 21:23:21.420 [MainThread] DEBUG game_stats:83 - Stats: shot #17 P1 (2,6) hit=True sunk=None score=117
+2026-10-20 21:23:21.421 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:21.422 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:23:23.228 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:23.230 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:23.840 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:23:23.840 [MainThread] DEBUG game_logic:391 - P2 fires at (4,7): hit
+2026-10-20 21:23:23.841 [MainThread] DEBUG game_stats:83 - Stats: shot #18 P2 (4,7) hit=True sunk=None score=58
+2026-10-20 21:23:23.841 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:23.841 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:23:25.633 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:25.639 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:26.243 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 4 active hits
+2026-10-20 21:23:26.243 [MainThread] DEBUG game_logic:391 - P1 fires at (1,6): miss
+2026-10-20 21:23:26.244 [MainThread] DEBUG game_stats:83 - Stats: shot #19 P1 (1,6) hit=False sunk=None score=58
+2026-10-20 21:23:26.244 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:26.244 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:27.866 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:27.871 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:28.479 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:23:28.479 [MainThread] DEBUG game_logic:391 - P2 fires at (5,7): miss
+2026-10-20 21:23:28.479 [MainThread] DEBUG game_stats:83 - Stats: shot #20 P2 (5,7) hit=False sunk=None score=58
+2026-10-20 21:23:28.479 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:28.479 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:30.099 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:30.103 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:30.711 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 4 active hits
+2026-10-20 21:23:30.712 [MainThread] DEBUG game_logic:391 - P1 fires at (2,7): sunk:Carrier
+2026-10-20 21:23:30.712 [MainThread] DEBUG game_stats:83 - Stats: shot #21 P1 (2,7) hit=True sunk=Carrier score=117
+2026-10-20 21:23:30.712 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:30.713 [MainThread] DEBUG ui_main:1229 - Status: 'Carrier sunk!'
+2026-10-20 21:23:32.834 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:32.837 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:33.448 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:23:33.448 [MainThread] DEBUG game_logic:391 - P2 fires at (2,7): miss
+2026-10-20 21:23:33.449 [MainThread] DEBUG game_stats:83 - Stats: shot #22 P2 (2,7) hit=False sunk=None score=117
+2026-10-20 21:23:33.449 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:33.449 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:35.058 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:35.062 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:35.667 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:35.668 [MainThread] DEBUG game_logic:391 - P1 fires at (5,3): miss
+2026-10-20 21:23:35.668 [MainThread] DEBUG game_stats:83 - Stats: shot #23 P1 (5,3) hit=False sunk=None score=117
+2026-10-20 21:23:35.669 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:35.669 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:37.291 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:37.296 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:37.900 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:23:37.900 [MainThread] DEBUG game_logic:391 - P2 fires at (4,8): hit
+2026-10-20 21:23:37.901 [MainThread] DEBUG game_stats:83 - Stats: shot #24 P2 (4,8) hit=True sunk=None score=58
+2026-10-20 21:23:37.901 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:37.901 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:23:39.692 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:39.694 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:40.301 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:40.302 [MainThread] DEBUG game_logic:391 - P1 fires at (6,2): miss
+2026-10-20 21:23:40.302 [MainThread] DEBUG game_stats:83 - Stats: shot #25 P1 (6,2) hit=False sunk=None score=58
+2026-10-20 21:23:40.303 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:40.303 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:41.926 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:41.929 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:42.531 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 4 active hits
+2026-10-20 21:23:42.531 [MainThread] DEBUG game_logic:391 - P2 fires at (4,9): miss
+2026-10-20 21:23:42.532 [MainThread] DEBUG game_stats:83 - Stats: shot #26 P2 (4,9) hit=False sunk=None score=58
+2026-10-20 21:23:42.533 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:42.534 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:44.158 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:44.162 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:44.766 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:44.768 [MainThread] DEBUG game_logic:391 - P1 fires at (7,4): miss
+2026-10-20 21:23:44.768 [MainThread] DEBUG game_stats:83 - Stats: shot #27 P1 (7,4) hit=False sunk=None score=58
+2026-10-20 21:23:44.769 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:44.769 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:46.385 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:46.387 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:46.995 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 4 active hits
+2026-10-20 21:23:46.996 [MainThread] DEBUG game_logic:391 - P2 fires at (4,6): miss
+2026-10-20 21:23:46.997 [MainThread] DEBUG game_stats:83 - Stats: shot #28 P2 (4,6) hit=False sunk=None score=58
+2026-10-20 21:23:46.998 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:46.998 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:48.620 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:48.624 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:49.228 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:49.230 [MainThread] DEBUG game_logic:391 - P1 fires at (6,7): miss
+2026-10-20 21:23:49.230 [MainThread] DEBUG game_stats:83 - Stats: shot #29 P1 (6,7) hit=False sunk=None score=58
+2026-10-20 21:23:49.230 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:49.231 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:50.850 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:50.852 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:51.465 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 4 active hits
+2026-10-20 21:23:51.465 [MainThread] DEBUG game_logic:391 - P2 fires at (5,8): sunk:Carrier
+2026-10-20 21:23:51.465 [MainThread] DEBUG game_stats:83 - Stats: shot #30 P2 (5,8) hit=True sunk=Carrier score=0
+2026-10-20 21:23:51.465 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:51.466 [MainThread] DEBUG ui_main:1229 - Status: 'Carrier sunk!'
+2026-10-20 21:23:53.580 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:53.583 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:54.193 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:54.195 [MainThread] DEBUG game_logic:391 - P1 fires at (8,6): miss
+2026-10-20 21:23:54.195 [MainThread] DEBUG game_stats:83 - Stats: shot #31 P1 (8,6) hit=False sunk=None score=0
+2026-10-20 21:23:54.195 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:54.195 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:55.812 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:23:55.814 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:56.428 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:56.430 [MainThread] DEBUG game_logic:391 - P2 fires at (7,3): miss
+2026-10-20 21:23:56.430 [MainThread] DEBUG game_stats:83 - Stats: shot #32 P2 (7,3) hit=False sunk=None score=0
+2026-10-20 21:23:56.430 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:56.430 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:23:58.057 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:23:58.059 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:23:58.673 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:23:58.675 [MainThread] DEBUG game_logic:391 - P1 fires at (4,1): hit
+2026-10-20 21:23:58.675 [MainThread] DEBUG game_stats:83 - Stats: shot #33 P1 (4,1) hit=True sunk=None score=58
+2026-10-20 21:23:58.675 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:23:58.676 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:00.482 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:00.486 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:01.094 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:01.096 [MainThread] DEBUG game_logic:391 - P2 fires at (5,4): miss
+2026-10-20 21:24:01.096 [MainThread] DEBUG game_stats:83 - Stats: shot #34 P2 (5,4) hit=False sunk=None score=58
+2026-10-20 21:24:01.096 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:01.097 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:02.721 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:02.724 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:03.327 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:24:03.328 [MainThread] DEBUG game_logic:391 - P1 fires at (5,1): hit
+2026-10-20 21:24:03.328 [MainThread] DEBUG game_stats:83 - Stats: shot #35 P1 (5,1) hit=True sunk=None score=117
+2026-10-20 21:24:03.329 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:03.329 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:05.134 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:05.141 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:05.746 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:05.747 [MainThread] DEBUG game_logic:391 - P2 fires at (2,2): miss
+2026-10-20 21:24:05.748 [MainThread] DEBUG game_stats:83 - Stats: shot #36 P2 (2,2) hit=False sunk=None score=117
+2026-10-20 21:24:05.748 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:05.748 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:07.369 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:07.377 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:07.993 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:24:07.994 [MainThread] DEBUG game_logic:391 - P1 fires at (3,1): sunk:Submarine
+2026-10-20 21:24:07.994 [MainThread] DEBUG game_stats:83 - Stats: shot #37 P1 (3,1) hit=True sunk=Submarine score=176
+2026-10-20 21:24:07.994 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:07.994 [MainThread] DEBUG ui_main:1229 - Status: 'Submarine sunk!'
+2026-10-20 21:24:10.119 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:10.121 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:10.737 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:10.738 [MainThread] DEBUG game_logic:391 - P2 fires at (1,5): hit
+2026-10-20 21:24:10.738 [MainThread] DEBUG game_stats:83 - Stats: shot #38 P2 (1,5) hit=True sunk=None score=117
+2026-10-20 21:24:10.739 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:10.739 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:12.534 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:12.539 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:13.144 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:13.146 [MainThread] DEBUG game_logic:391 - P1 fires at (5,8): miss
+2026-10-20 21:24:13.147 [MainThread] DEBUG game_stats:83 - Stats: shot #39 P1 (5,8) hit=False sunk=None score=117
+2026-10-20 21:24:13.147 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:13.147 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:14.752 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:14.754 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:15.367 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:24:15.367 [MainThread] DEBUG game_logic:391 - P2 fires at (0,5): sunk:Patrol Boat
+2026-10-20 21:24:15.368 [MainThread] DEBUG game_stats:83 - Stats: shot #40 P2 (0,5) hit=True sunk=Patrol Boat score=58
+2026-10-20 21:24:15.368 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:15.368 [MainThread] DEBUG ui_main:1229 - Status: 'Patrol Boat sunk!'
+2026-10-20 21:24:17.490 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:17.493 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:18.102 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:18.104 [MainThread] DEBUG game_logic:391 - P1 fires at (1,3): miss
+2026-10-20 21:24:18.104 [MainThread] DEBUG game_stats:83 - Stats: shot #41 P1 (1,3) hit=False sunk=None score=58
+2026-10-20 21:24:18.104 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:18.104 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:19.713 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:19.717 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:20.324 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:20.325 [MainThread] DEBUG game_logic:391 - P2 fires at (8,5): hit
+2026-10-20 21:24:20.325 [MainThread] DEBUG game_stats:83 - Stats: shot #42 P2 (8,5) hit=True sunk=None score=0
+2026-10-20 21:24:20.326 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:20.326 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:22.128 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:22.131 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:22.743 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:22.746 [MainThread] DEBUG game_logic:391 - P1 fires at (2,2): hit
+2026-10-20 21:24:22.746 [MainThread] DEBUG game_stats:83 - Stats: shot #43 P1 (2,2) hit=True sunk=None score=58
+2026-10-20 21:24:22.746 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:22.746 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:24.530 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:24.532 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:25.146 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:24:25.147 [MainThread] DEBUG game_logic:391 - P2 fires at (8,4): miss
+2026-10-20 21:24:25.147 [MainThread] DEBUG game_stats:83 - Stats: shot #44 P2 (8,4) hit=False sunk=None score=58
+2026-10-20 21:24:25.148 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:25.148 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:26.764 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:26.769 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:27.372 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:24:27.373 [MainThread] DEBUG game_logic:391 - P1 fires at (2,3): miss
+2026-10-20 21:24:27.373 [MainThread] DEBUG game_stats:83 - Stats: shot #45 P1 (2,3) hit=False sunk=None score=58
+2026-10-20 21:24:27.374 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:27.374 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:28.999 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:29.001 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:29.610 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:24:29.611 [MainThread] DEBUG game_logic:391 - P2 fires at (9,5): hit
+2026-10-20 21:24:29.611 [MainThread] DEBUG game_stats:83 - Stats: shot #46 P2 (9,5) hit=True sunk=None score=0
+2026-10-20 21:24:29.611 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:29.612 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:31.402 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:31.406 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:32.009 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:24:32.009 [MainThread] DEBUG game_logic:391 - P1 fires at (3,2): hit
+2026-10-20 21:24:32.009 [MainThread] DEBUG game_stats:83 - Stats: shot #47 P1 (3,2) hit=True sunk=None score=58
+2026-10-20 21:24:32.009 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:32.010 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:33.803 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:33.809 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:34.414 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:24:34.415 [MainThread] DEBUG game_logic:391 - P2 fires at (7,5): miss
+2026-10-20 21:24:34.416 [MainThread] DEBUG game_stats:83 - Stats: shot #48 P2 (7,5) hit=False sunk=None score=58
+2026-10-20 21:24:34.416 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:34.416 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:36.027 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:36.031 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:36.645 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:24:36.645 [MainThread] DEBUG game_logic:391 - P1 fires at (4,2): miss
+2026-10-20 21:24:36.645 [MainThread] DEBUG game_stats:83 - Stats: shot #49 P1 (4,2) hit=False sunk=None score=58
+2026-10-20 21:24:36.646 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:36.647 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:38.273 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:38.279 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:38.881 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:24:38.882 [MainThread] DEBUG game_logic:391 - P2 fires at (8,6): hit
+2026-10-20 21:24:38.882 [MainThread] DEBUG game_stats:83 - Stats: shot #50 P2 (8,6) hit=True sunk=None score=0
+2026-10-20 21:24:38.882 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:38.882 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:40.681 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:40.686 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:41.290 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:24:41.291 [MainThread] DEBUG game_logic:391 - P1 fires at (1,2): hit
+2026-10-20 21:24:41.291 [MainThread] DEBUG game_stats:83 - Stats: shot #51 P1 (1,2) hit=True sunk=None score=58
+2026-10-20 21:24:41.292 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:41.292 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:43.100 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:43.103 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:43.712 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:24:43.713 [MainThread] DEBUG game_logic:391 - P2 fires at (9,6): miss
+2026-10-20 21:24:43.713 [MainThread] DEBUG game_stats:83 - Stats: shot #52 P2 (9,6) hit=False sunk=None score=58
+2026-10-20 21:24:43.713 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:43.713 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:45.319 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:45.321 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:45.935 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:24:45.936 [MainThread] DEBUG game_logic:391 - P1 fires at (0,2): sunk:Battleship
+2026-10-20 21:24:45.936 [MainThread] DEBUG game_stats:83 - Stats: shot #53 P1 (0,2) hit=True sunk=Battleship score=117
+2026-10-20 21:24:45.936 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:45.937 [MainThread] DEBUG ui_main:1229 - Status: 'Battleship sunk!'
+2026-10-20 21:24:48.057 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:48.061 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:48.673 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:24:48.674 [MainThread] DEBUG game_logic:391 - P2 fires at (7,6): miss
+2026-10-20 21:24:48.674 [MainThread] DEBUG game_stats:83 - Stats: shot #54 P2 (7,6) hit=False sunk=None score=117
+2026-10-20 21:24:48.675 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:48.675 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:50.299 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:50.304 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:50.907 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:50.908 [MainThread] DEBUG game_logic:391 - P1 fires at (2,8): miss
+2026-10-20 21:24:50.909 [MainThread] DEBUG game_stats:83 - Stats: shot #55 P1 (2,8) hit=False sunk=None score=117
+2026-10-20 21:24:50.909 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:50.910 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:52.527 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:52.531 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:53.136 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:24:53.137 [MainThread] DEBUG game_logic:391 - P2 fires at (9,4): hit
+2026-10-20 21:24:53.137 [MainThread] DEBUG game_stats:83 - Stats: shot #56 P2 (9,4) hit=True sunk=None score=58
+2026-10-20 21:24:53.137 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:53.138 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:54.922 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:54.926 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:55.538 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:24:55.539 [MainThread] DEBUG game_logic:391 - P1 fires at (7,1): miss
+2026-10-20 21:24:55.539 [MainThread] DEBUG game_stats:83 - Stats: shot #57 P1 (7,1) hit=False sunk=None score=58
+2026-10-20 21:24:55.540 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:55.540 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:24:57.157 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:24:57.163 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:24:57.766 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 4 active hits
+2026-10-20 21:24:57.767 [MainThread] DEBUG game_logic:391 - P2 fires at (8,7): hit
+2026-10-20 21:24:57.767 [MainThread] DEBUG game_stats:83 - Stats: shot #58 P2 (8,7) hit=True sunk=None score=0
+2026-10-20 21:24:57.767 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:24:57.767 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:24:59.561 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:24:59.564 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:00.173 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:00.174 [MainThread] DEBUG game_logic:391 - P1 fires at (8,3): miss
+2026-10-20 21:25:00.175 [MainThread] DEBUG game_stats:83 - Stats: shot #59 P1 (8,3) hit=False sunk=None score=0
+2026-10-20 21:25:00.175 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:00.175 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:01.798 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:01.803 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:02.404 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 5 active hits
+2026-10-20 21:25:02.405 [MainThread] DEBUG game_logic:391 - P2 fires at (9,3): sunk:Destroyer
+2026-10-20 21:25:02.405 [MainThread] DEBUG game_stats:83 - Stats: shot #60 P2 (9,3) hit=True sunk=Destroyer score=-58
+2026-10-20 21:25:02.405 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:02.405 [MainThread] DEBUG ui_main:1229 - Status: 'Destroyer sunk!'
+2026-10-20 21:25:04.520 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:04.522 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:05.124 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:05.124 [MainThread] DEBUG game_logic:391 - P1 fires at (2,1): miss
+2026-10-20 21:25:05.124 [MainThread] DEBUG game_stats:83 - Stats: shot #61 P1 (2,1) hit=False sunk=None score=-58
+2026-10-20 21:25:05.125 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:05.125 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:06.733 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:06.737 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:07.348 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 3 active hits
+2026-10-20 21:25:07.348 [MainThread] DEBUG game_logic:391 - P2 fires at (8,8): sunk:Battleship
+2026-10-20 21:25:07.349 [MainThread] DEBUG game_stats:83 - Stats: shot #62 P2 (8,8) hit=True sunk=Battleship score=-117
+2026-10-20 21:25:07.349 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:07.349 [MainThread] DEBUG ui_main:1229 - Status: 'Battleship sunk!'
+2026-10-20 21:25:09.476 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:09.478 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:10.087 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:10.088 [MainThread] DEBUG game_logic:391 - P1 fires at (7,8): hit
+2026-10-20 21:25:10.088 [MainThread] DEBUG game_stats:83 - Stats: shot #63 P1 (7,8) hit=True sunk=None score=-58
+2026-10-20 21:25:10.089 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:10.089 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:25:11.894 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:11.896 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:12.507 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:12.508 [MainThread] DEBUG game_logic:391 - P2 fires at (2,4): miss
+2026-10-20 21:25:12.508 [MainThread] DEBUG game_stats:83 - Stats: shot #64 P2 (2,4) hit=False sunk=None score=-58
+2026-10-20 21:25:12.509 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:12.509 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:14.135 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:14.140 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:14.752 [AI-attack-P1] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:25:14.752 [MainThread] DEBUG game_logic:391 - P1 fires at (8,8): sunk:Patrol Boat
+2026-10-20 21:25:14.752 [MainThread] DEBUG game_stats:83 - Stats: shot #65 P1 (8,8) hit=True sunk=Patrol Boat score=0
+2026-10-20 21:25:14.753 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:14.753 [MainThread] DEBUG ui_main:1229 - Status: 'Patrol Boat sunk!'
+2026-10-20 21:25:16.873 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:16.875 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:17.485 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:17.488 [MainThread] DEBUG game_logic:391 - P2 fires at (5,1): miss
+2026-10-20 21:25:17.489 [MainThread] DEBUG game_stats:83 - Stats: shot #66 P2 (5,1) hit=False sunk=None score=0
+2026-10-20 21:25:17.489 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:17.489 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:19.106 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:19.111 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:19.715 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:19.716 [MainThread] DEBUG game_logic:391 - P1 fires at (7,7): miss
+2026-10-20 21:25:19.717 [MainThread] DEBUG game_stats:83 - Stats: shot #67 P1 (7,7) hit=False sunk=None score=0
+2026-10-20 21:25:19.717 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:19.718 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:21.328 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:21.330 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:21.942 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:21.943 [MainThread] DEBUG game_logic:391 - P2 fires at (7,9): miss
+2026-10-20 21:25:21.944 [MainThread] DEBUG game_stats:83 - Stats: shot #68 P2 (7,9) hit=False sunk=None score=0
+2026-10-20 21:25:21.944 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:21.944 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:23.558 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:23.561 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:24.169 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:24.170 [MainThread] DEBUG game_logic:391 - P1 fires at (9,5): miss
+2026-10-20 21:25:24.170 [MainThread] DEBUG game_stats:83 - Stats: shot #69 P1 (9,5) hit=False sunk=None score=0
+2026-10-20 21:25:24.170 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:24.171 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:25.778 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:25.782 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:26.394 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:26.394 [MainThread] DEBUG game_logic:391 - P2 fires at (0,6): miss
+2026-10-20 21:25:26.394 [MainThread] DEBUG game_stats:83 - Stats: shot #70 P2 (0,6) hit=False sunk=None score=0
+2026-10-20 21:25:26.395 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:26.395 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:28.018 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:28.021 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:28.622 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:28.622 [MainThread] DEBUG game_logic:391 - P1 fires at (3,0): miss
+2026-10-20 21:25:28.622 [MainThread] DEBUG game_stats:83 - Stats: shot #71 P1 (3,0) hit=False sunk=None score=0
+2026-10-20 21:25:28.623 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:28.623 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:30.246 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:30.248 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:30.855 [AI-attack-P2] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:30.856 [MainThread] DEBUG game_logic:391 - P2 fires at (1,3): hit
+2026-10-20 21:25:30.856 [MainThread] DEBUG game_stats:83 - Stats: shot #72 P2 (1,3) hit=True sunk=None score=-58
+2026-10-20 21:25:30.856 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:30.856 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:25:32.656 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:32.663 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:33.276 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:33.277 [MainThread] DEBUG game_logic:391 - P1 fires at (6,5): miss
+2026-10-20 21:25:33.277 [MainThread] DEBUG game_stats:83 - Stats: shot #73 P1 (6,5) hit=False sunk=None score=-58
+2026-10-20 21:25:33.277 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:33.278 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:34.896 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:34.898 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:35.508 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:25:35.509 [MainThread] DEBUG game_logic:391 - P2 fires at (0,3): miss
+2026-10-20 21:25:35.509 [MainThread] DEBUG game_stats:83 - Stats: shot #74 P2 (0,3) hit=False sunk=None score=-58
+2026-10-20 21:25:35.510 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:35.510 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:37.133 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:37.135 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:37.748 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:37.748 [MainThread] DEBUG game_logic:391 - P1 fires at (0,5): miss
+2026-10-20 21:25:37.748 [MainThread] DEBUG game_stats:83 - Stats: shot #75 P1 (0,5) hit=False sunk=None score=-58
+2026-10-20 21:25:37.749 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:37.749 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:39.366 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:39.370 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:39.978 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 1 active hits
+2026-10-20 21:25:39.978 [MainThread] DEBUG game_logic:391 - P2 fires at (1,2): hit
+2026-10-20 21:25:39.978 [MainThread] DEBUG game_stats:83 - Stats: shot #76 P2 (1,2) hit=True sunk=None score=-117
+2026-10-20 21:25:39.978 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:39.980 [MainThread] DEBUG ui_main:1229 - Status: 'Hit!'
+2026-10-20 21:25:41.771 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P1
+2026-10-20 21:25:41.775 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:42.383 [AI-attack-P1] DEBUG ai_engines.hunt_target:73 - Hunt mode
+2026-10-20 21:25:42.384 [MainThread] DEBUG game_logic:391 - P1 fires at (4,9): miss
+2026-10-20 21:25:42.384 [MainThread] DEBUG game_stats:83 - Stats: shot #77 P1 (4,9) hit=False sunk=None score=-117
+2026-10-20 21:25:42.385 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:42.385 [MainThread] DEBUG ui_main:1229 - Status: 'Miss.'
+2026-10-20 21:25:44.003 [MainThread] DEBUG ui_main:861 - Beginning attack turn for P2
+2026-10-20 21:25:44.007 [MainThread] DEBUG ui_main:1229 - Status: 'Machine is thinking...'
+2026-10-20 21:25:44.616 [AI-attack-P2] DEBUG ai_engines.hunt_target:68 - Target mode: 2 active hits
+2026-10-20 21:25:44.617 [MainThread] DEBUG game_logic:391 - P2 fires at (1,1): sunk:Submarine
+2026-10-20 21:25:44.617 [MainThread] DEBUG game_logic:400 - P2 wins by sinking all opponent ships
+2026-10-20 21:25:44.617 [MainThread] DEBUG game_stats:83 - Stats: shot #78 P2 (1,1) hit=True sunk=Submarine score=-176
+2026-10-20 21:25:44.618 [MainThread] DEBUG ui_main:1229 - Status: '...'
+2026-10-20 21:25:44.618 [MainThread] DEBUG ui_main:1229 - Status: 'Submarine sunk!'
+2026-10-20 21:25:46.423 [MainThread] INFO game_stats:177 - === BATTLESHIP GAME SUMMARY ===
+2026-10-20 21:25:46.423 [MainThread] INFO game_stats:178 - [OUTCOME] winner=Player 2  duration=3m04s
+2026-10-20 21:25:46.423 [MainThread] INFO game_stats:179 - [SHOTS] P1=39 (hits=14 misses=25 acc=35.9%)  P2=39 (hits=17 misses=22 acc=43.6%)
+2026-10-20 21:25:46.423 [MainThread] INFO game_stats:187 - [SUNK] P1 sank 4 ships  P2 sank 5 ships
+2026-10-20 21:25:46.423 [MainThread] INFO game_stats:191 - [STREAKS] P1 longest=3  P2 longest=4
+2026-10-20 21:25:46.423 [MainThread] INFO game_stats:195 - [TIMING] placement P1=0.3s P2=0.3s  attack=182.5s
+2026-10-20 21:25:46.426 [MainThread] DEBUG ui_main:1229 - Status: 'Player 2 wins!'
+2026-10-20 21:25:47.248 [MainThread] DEBUG matplotlib.pyplot:517 - Loaded backend TkAgg version 9.0.
+2026-10-20 21:25:47.271 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.271 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.271 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.272 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.272 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 1189
+2026-10-20 21:25:47.276 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.276 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.277 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.277 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.277 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 2994
+2026-10-20 21:25:47.282 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.282 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.282 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.282 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.282 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 374
+2026-10-20 21:25:47.283 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.283 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.283 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.284 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.284 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 286
+2026-10-20 21:25:47.285 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.285 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.285 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.285 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.285 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 263
+2026-10-20 21:25:47.286 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.286 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.286 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.286 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.286 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 387
+2026-10-20 21:25:47.287 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.287 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.288 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.288 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.288 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 436
+2026-10-20 21:25:47.289 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.289 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.289 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.289 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.289 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 351
+2026-10-20 21:25:47.290 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.290 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.290 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.290 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.290 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 364
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1646 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', index=0, name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', index=0, name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', index=0, name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LastResortHE-Regular.ttf', index=0, name='Last Resort High-Efficiency', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', index=0, name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmti10.ttf', index=0, name='cmti10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', index=0, name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', index=0, name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', index=0, name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', index=0, name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', index=0, name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', index=0, name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', index=0, name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', index=0, name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=0, name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=1, name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=3, name='Nirmala Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=4, name='Nirmala Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=0, name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=1, name='NSimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegoeIcons.ttf', index=0, name='Segoe Fluent Icons', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', index=0, name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', index=0, name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI Black', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', index=0, name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', index=0, name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', index=0, name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', index=0, name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SimsunExtG.ttf', index=0, name='SimSun-ExtG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=0, name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=1, name='PMingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=2, name='MingLiU_HKSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=3, name='MingLiU_MSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', index=0, name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', index=0, name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=0, name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=1, name='Cambria Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', index=0, name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', index=0, name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SansSerifCollection.ttf', index=0, name='Sans Serif Collection', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', index=0, name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', index=0, name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', index=0, name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', index=0, name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI Semilight', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', index=0, name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', index=0, name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', index=0, name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI Semibold', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', index=0, name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', index=0, name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', index=0, name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', index=0, name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegUIVar.ttf', index=0, name='Segoe UI Variable', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', index=0, name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka Text', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', index=0, name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', index=0, name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', index=0, name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=0, name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=1, name='MS UI Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=2, name='MS PGothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', index=0, name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', index=0, name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', index=0, name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.309 [MainThread] DEBUG matplotlib.font_manager:1695 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2026-10-20 21:25:47.322 [MainThread] DEBUG matplotlib.font_manager:1646 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=7.0.
+2026-10-20 21:25:47.322 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.322 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.322 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.322 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.322 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.323 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.323 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', index=0, name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.323 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.323 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', index=0, name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.323 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.323 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', index=0, name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LastResortHE-Regular.ttf', index=0, name='Last Resort High-Efficiency', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', index=0, name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmti10.ttf', index=0, name='cmti10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-10-20 21:25:47.324 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', index=0, name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', index=0, name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', index=0, name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', index=0, name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', index=0, name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', index=0, name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.325 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', index=0, name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', index=0, name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.326 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=0, name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=1, name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=3, name='Nirmala Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=4, name='Nirmala Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=0, name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.327 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=1, name='NSimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegoeIcons.ttf', index=0, name='Segoe Fluent Icons', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', index=0, name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', index=0, name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI Black', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.328 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', index=0, name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', index=0, name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', index=0, name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', index=0, name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.329 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SimsunExtG.ttf', index=0, name='SimSun-ExtG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=0, name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=1, name='PMingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=2, name='MingLiU_HKSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=3, name='MingLiU_MSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.330 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', index=0, name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', index=0, name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=0, name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=1, name='Cambria Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', index=0, name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', index=0, name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.331 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SansSerifCollection.ttf', index=0, name='Sans Serif Collection', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', index=0, name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', index=0, name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', index=0, name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', index=0, name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.332 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI Semilight', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', index=0, name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.333 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', index=0, name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', index=0, name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI Semibold', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.334 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', index=0, name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', index=0, name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', index=0, name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 21:25:47.335 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', index=0, name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegUIVar.ttf', index=0, name='Segoe UI Variable', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.336 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', index=0, name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka Text', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.337 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', index=0, name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', index=0, name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', index=0, name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=0, name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=1, name='MS UI Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=2, name='MS PGothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', index=0, name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', index=0, name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.338 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', index=0, name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 21:25:47.339 [MainThread] DEBUG matplotlib.font_manager:1695 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=7.0 to DejaVu Sans ('C:\\Users\\user001\\battleship_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2026-10-20 21:25:47.407 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.407 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.408 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.408 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.408 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 1189
+2026-10-20 21:25:47.408 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.409 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.409 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.409 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.409 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 2994
+2026-10-20 21:25:47.412 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.412 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.412 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.413 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.413 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 374
+2026-10-20 21:25:47.414 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.414 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.414 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.414 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.414 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 286
+2026-10-20 21:25:47.415 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.415 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.415 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.415 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.415 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 263
+2026-10-20 21:25:47.418 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.418 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.418 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.418 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.418 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 387
+2026-10-20 21:25:47.419 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.419 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.419 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.419 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.420 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 436
+2026-10-20 21:25:47.420 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.421 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.421 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.421 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.421 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 351
+2026-10-20 21:25:47.422 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 21:25:47.422 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 21:25:47.422 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 21:25:47.422 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 21:25:47.422 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 364
+2026-10-20 21:26:42.042 [MainThread] INFO __main__:49 - ============================================================
+2026-10-20 21:26:42.043 [MainThread] INFO __main__:50 - Battleship  --  exited normally
+2026-10-20 21:26:42.043 [MainThread] INFO __main__:51 - ============================================================
